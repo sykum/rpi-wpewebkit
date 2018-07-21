@@ -1,0 +1,4 @@
+SANITY_VERSION 1
+TMPDIR /home/rseidt/rpi-build/tmp
+SSTATE_DIR /home/rseidt/rpi-build/sstate-cache
+NATIVELSBSTRING fedora-28

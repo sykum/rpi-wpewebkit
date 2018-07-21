@@ -1,0 +1,10 @@
+[Unit]
+Description=Psplash Boot screen
+After=mypsplash-start.service
+
+[Service]
+Type=oneshot
+ExecStart=/bin/bash /opt/psplash-progress.sh
+
+[Install]
+WantedBy=sysinit.target

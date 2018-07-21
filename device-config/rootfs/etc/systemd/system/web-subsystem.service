@@ -1,0 +1,10 @@
+[Unit]
+Description=WPEWebkit subsystem
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+ExecStart=/usr/bin/cog https://google.de
+
+[Install]
+WantedBy=multi-user.target

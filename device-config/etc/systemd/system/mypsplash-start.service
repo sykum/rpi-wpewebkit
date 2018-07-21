@@ -1,0 +1,9 @@
+[Unit]
+Description=Psplash Boot screen
+After=systemd-vconsole-setup.service
+
+[Service]
+ExecStart=/usr/bin/psplash -n
+
+[Install]
+WantedBy=sysinit.target
